@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -4737,19 +4737,19 @@ design rules under a new name.</description>
 <element name="JP2" library="Ai_Connectors" package="1X03" value="1X03-PJ" x="26.162" y="9.144" smashed="yes">
 <attribute name="NAME" x="31.496" y="7.62" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="JS1" library="Ai_Connectors" package="1X02-SJ-NO" value="" x="62.865" y="33.02" smashed="yes">
+<element name="JS1" library="Ai_Connectors" package="1X02-SJ-NO" value="1X02-SJNO" x="62.865" y="33.02" smashed="yes">
 <attribute name="NAME" x="61.595" y="32.385" size="1.27" layer="51"/>
 </element>
-<element name="JS2" library="Ai_Connectors" package="1X02-SJ-NO" value="" x="62.865" y="35.56" smashed="yes">
+<element name="JS2" library="Ai_Connectors" package="1X02-SJ-NO" value="1X02-SJNO" x="62.865" y="35.56" smashed="yes">
 <attribute name="NAME" x="61.595" y="34.925" size="1.27" layer="51"/>
 </element>
-<element name="JS3" library="Ai_Connectors" package="1X02-SJ-NO" value="" x="62.865" y="38.1" smashed="yes">
+<element name="JS3" library="Ai_Connectors" package="1X02-SJ-NO" value="1X02-SJNO" x="62.865" y="38.1" smashed="yes">
 <attribute name="NAME" x="61.595" y="37.465" size="1.27" layer="51"/>
 </element>
-<element name="JS4" library="Ai_Connectors" package="1X02-SJ-NO" value="" x="62.865" y="40.64" smashed="yes">
+<element name="JS4" library="Ai_Connectors" package="1X02-SJ-NO" value="1X02-SJNO" x="62.865" y="40.64" smashed="yes">
 <attribute name="NAME" x="61.595" y="40.005" size="1.27" layer="51"/>
 </element>
-<element name="JS5" library="Ai_Connectors" package="1X02-SJ-NO" value="" x="62.865" y="43.18" smashed="yes">
+<element name="JS5" library="Ai_Connectors" package="1X02-SJ-NO" value="1X02-SJNO" x="62.865" y="43.18" smashed="yes">
 <attribute name="NAME" x="61.595" y="42.545" size="1.27" layer="51"/>
 </element>
 <element name="R7" library="Ai_Passives" package="0603-RES" value="10K" x="66.04" y="6.096" smashed="yes" rot="R90">
