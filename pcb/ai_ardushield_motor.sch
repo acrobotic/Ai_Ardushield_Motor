@@ -186,15 +186,15 @@ Standard 8.5x11 US Letter frame</description>
 <library name="Ai_Boards">
 <packages>
 <package name="UNOR3">
-<wire x1="0" y1="0" x2="66.04" y2="0" width="0.254" layer="20"/>
-<wire x1="66.04" y1="0" x2="66.04" y2="2.54" width="0.254" layer="20"/>
-<wire x1="66.04" y1="2.54" x2="68.58" y2="5.08" width="0.254" layer="20"/>
-<wire x1="68.58" y1="5.08" x2="68.58" y2="37.846" width="0.254" layer="20"/>
-<wire x1="68.58" y1="37.846" x2="66.04" y2="40.386" width="0.254" layer="20"/>
-<wire x1="66.04" y1="40.386" x2="66.04" y2="51.816" width="0.254" layer="20"/>
-<wire x1="66.04" y1="51.816" x2="64.516" y2="53.34" width="0.254" layer="20"/>
-<wire x1="64.516" y1="53.34" x2="0" y2="53.34" width="0.254" layer="20"/>
-<wire x1="0" y1="53.34" x2="0" y2="0" width="0.254" layer="20"/>
+<wire x1="0" y1="0" x2="66.04" y2="0" width="0.127" layer="20"/>
+<wire x1="66.04" y1="0" x2="66.04" y2="2.54" width="0.127" layer="20"/>
+<wire x1="66.04" y1="2.54" x2="68.58" y2="5.08" width="0.127" layer="20"/>
+<wire x1="68.58" y1="5.08" x2="68.58" y2="37.846" width="0.127" layer="20"/>
+<wire x1="68.58" y1="37.846" x2="66.04" y2="40.386" width="0.127" layer="20"/>
+<wire x1="66.04" y1="40.386" x2="66.04" y2="51.816" width="0.127" layer="20"/>
+<wire x1="66.04" y1="51.816" x2="64.516" y2="53.34" width="0.127" layer="20"/>
+<wire x1="64.516" y1="53.34" x2="0" y2="53.34" width="0.127" layer="20"/>
+<wire x1="0" y1="53.34" x2="0" y2="0" width="0.127" layer="20"/>
 <circle x="15.24" y="50.8" radius="1.796" width="0.127" layer="51"/>
 <circle x="13.97" y="2.54" radius="1.796" width="0.127" layer="51"/>
 <circle x="66.04" y="35.56" radius="1.796" width="0.127" layer="51"/>
@@ -1446,30 +1446,30 @@ MOS dual H-bridge motor driver, 1.2A current 3.2A peak
 <wire x1="-2.032" y1="0" x2="2.032" y2="0" width="0.254" layer="94"/>
 <wire x1="-1.27" y1="-0.762" x2="1.27" y2="-0.762" width="0.254" layer="94"/>
 <wire x1="-0.508" y1="-1.524" x2="0.508" y2="-1.524" width="0.254" layer="94"/>
-<text x="-2.54" y="0" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="0" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
 <symbol name="VCC">
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<text x="-1.27" y="2.54" size="1.778" layer="96">VCC</text>
+<text x="-1.27" y="2.54" size="1.778" layer="96" font="vector">VCC</text>
 <pin name="VCC" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
 <symbol name="5V">
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<text x="-1.27" y="2.54" size="1.778" layer="96">5V</text>
+<text x="-1.27" y="2.54" size="1.778" layer="96" font="fixed">5V</text>
 <pin name="5V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
 <symbol name="3V3">
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="96">3V3</text>
+<text x="-2.54" y="2.54" size="1.778" layer="96" font="vector">3V3</text>
 <pin name="3V3" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
 <symbol name="VM">
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<text x="-1.27" y="2.54" size="1.778" layer="96">VM</text>
+<text x="-1.27" y="2.54" size="1.778" layer="96" font="vector">VM</text>
 <pin name="VM" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
 </symbols>
@@ -2025,7 +2025,9 @@ TS-003</description>
 <instance part="J6" gate="M08X1" x="104.14" y="128.27" smashed="yes" rot="R180">
 <attribute name="NAME" x="104.14" y="118.11" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="IC2" gate="G$1" x="92.71" y="87.63"/>
+<instance part="IC2" gate="G$1" x="92.71" y="87.63" smashed="yes">
+<attribute name="NAME" x="82.55" y="62.23" size="1.778" layer="95"/>
+</instance>
 <instance part="IC1" gate="G$1" x="182.88" y="151.13"/>
 <instance part="GND1" gate="GND" x="74.93" y="62.23"/>
 <instance part="J10" gate="G$1" x="45.72" y="44.45"/>
@@ -2193,13 +2195,6 @@ TS-003</description>
 <pinref part="U1" gate="G$1" pin="AREF"/>
 <pinref part="J7" gate="M10X1" pin="3"/>
 <wire x1="107.95" y1="161.29" x2="95.25" y2="161.29" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$28" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="GND@3"/>
-<pinref part="J7" gate="M10X1" pin="4"/>
-<wire x1="107.95" y1="158.75" x2="95.25" y2="158.75" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$29" class="0">
@@ -2587,6 +2582,12 @@ TS-003</description>
 <junction x="210.82" y="34.29"/>
 <pinref part="GND14" gate="GND" pin="GND"/>
 <wire x1="203.2" y1="31.75" x2="203.2" y2="34.29" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="GND@3"/>
+<pinref part="J7" gate="M10X1" pin="4"/>
+<wire x1="107.95" y1="158.75" x2="95.25" y2="158.75" width="0.1524" layer="91"/>
+<label x="97.79" y="158.75" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC" class="0">
